@@ -197,25 +197,25 @@ main .equipos-nuevos .mas-informacion a {
   justify-content: center;
   padding: 10px; }
 
-.main-servicios .servicios .container-servicios {
+.main-servicios .servicios .container-servicio {
   border: solid #3da2e6;
   background-color: #f78336;
   display: flex;
   justify-content: space-between; }
-  .main-servicios .servicios .container-servicios div {
+  .main-servicios .servicios .container-servicio div {
     display: flex;
     align-items: center;
     padding: 30px; }
-    .main-servicios .servicios .container-servicios div p {
+    .main-servicios .servicios .container-servicio div p {
       font-size: 20px;
       color: black;
       padding: 5px; }
-  .main-servicios .servicios .container-servicios img {
+  .main-servicios .servicios .container-servicio img {
     border: solid black 5px; }
-  .main-servicios .servicios .container-servicios img {
+  .main-servicios .servicios .container-servicio img {
     border: solid black 5px; }
 
-.main-servicios .servicios .mantenimiento div h3 {
+.main-servicios .mantenimiento div h3 {
   background-color: black;
   color: #3da2e6;
   display: flex;
@@ -223,26 +223,26 @@ main .equipos-nuevos .mas-informacion a {
   padding: 10px;
   font-size: 23px; }
 
-.main-servicios .servicios .mantenimiento .div-mantenimiento {
+.main-servicios .mantenimiento .div-mantenimiento {
   background-color: #f78336;
   border: solid #3da2e6;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between; }
-  .main-servicios .servicios .mantenimiento .div-mantenimiento .p-mantenimiento {
+  .main-servicios .mantenimiento .div-mantenimiento .p-mantenimiento {
     display: flex;
     color: black;
     padding: 30px;
     flex-wrap: wrap; }
-    .main-servicios .servicios .mantenimiento .div-mantenimiento .p-mantenimiento p {
+    .main-servicios .mantenimiento .div-mantenimiento .p-mantenimiento p {
       font-size: 20px;
       padding: 5px; }
-  .main-servicios .servicios .mantenimiento .div-mantenimiento img {
+  .main-servicios .mantenimiento .div-mantenimiento img {
     border: solid black 5px; }
-  .main-servicios .servicios .mantenimiento .div-mantenimiento img {
+  .main-servicios .mantenimiento .div-mantenimiento img {
     border: solid black 5px; }
 
-.main-servicios .servicios .reparacion div h3 {
+.main-servicios .reparacion div h3 {
   background-color: black;
   color: #3da2e6;
   display: flex;
@@ -250,22 +250,131 @@ main .equipos-nuevos .mas-informacion a {
   padding: 10px;
   font-size: 23px; }
 
-.main-servicios .servicios .reparacion .container-reparacion {
+.main-servicios .reparacion .container-reparacion {
   background-color: #f78336;
   border: solid #3da2e6;
   display: flex;
   justify-content: space-between; }
-  .main-servicios .servicios .reparacion .container-reparacion div {
+  .main-servicios .reparacion .container-reparacion div {
     display: flex;
     align-items: center;
     padding: 30px; }
-    .main-servicios .servicios .reparacion .container-reparacion div p {
+    .main-servicios .reparacion .container-reparacion div p {
       font-size: 20px;
       padding: 5px; }
-  .main-servicios .servicios .reparacion .container-reparacion img {
+  .main-servicios .reparacion .container-reparacion img {
     border: solid black 5px; }
-  .main-servicios .servicios .reparacion .container-reparacion img {
+  .main-servicios .reparacion .container-reparacion img {
     border: solid black 5px; }
+
+/*------------VENTAS----------------------------*/
+.main-ventas .ventas {
+  background-image: url(../img/fondoventas.jpg);
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; }
+  .main-ventas .ventas div h1 {
+    font-size: 100px; }
+
+.main-ventas .linea-stanford h2 {
+  background-color: black;
+  color: #3da2e6;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 23px; }
+
+.main-ventas .stanford {
+  display: flex;
+  justify-content: space-around; }
+
+.main-ventas .productos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+  .main-ventas .productos .cards {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center; }
+
+/*------------------TRABAJOS---------------------*/
+main .trabajos div {
+  height: 400px;
+  background-image: url(../img/fondotrabajos.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  main .trabajos div h1 {
+    font-size: 100px; }
+  main .trabajos div p {
+    background-color: black;
+    color: #3da2e6;
+    margin: 20px 0 0 0;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 10px; }
+
+main .galeria {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  background-color: #f78336; }
+  main .galeria div {
+    height: 400px; }
+    main .galeria div img {
+      width: 100%;
+      height: 100%; }
+  main .galeria .image img {
+    grid-column: 2/4; }
+
+/*---------------CONTACTOS---------------------*/
+.main-contactos .titulo-contactos {
+  background-color: black;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .main-contactos .titulo-contactos h1 {
+    color: white;
+    font-size: 100px; }
+
+.main-contactos .form-contactos {
+  margin: 0;
+  display: flex;
+  justify-content: space-around; }
+  .main-contactos .form-contactos div form .form {
+    margin: 40px 0 30px 0;
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px; }
+    .main-contactos .form-contactos div form .form div {
+      height: 60px;
+      display: flex;
+      justify-content: right;
+      align-items: center;
+      margin: 20px; }
+
+.main-contactos .img-contactos h2 {
+  margin: 40px 0 0 0;
+  font-size: 40px; }
+
+.main-contactos .img-contactos a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 30px; }
+  .main-contactos .img-contactos ahover {
+    color: #3da2e6;
+    cursor: pointer; }
 
 footer {
   background-color: black;
@@ -297,3 +406,214 @@ footer {
     footer div a img {
       height: 50px;
       width: 50px; }
+
+@media screan and (max-width: 1075px) {
+  .equipos-nuevos .img-nuevos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .div-mantenimiento {
+    background-color: #f78336;
+    border: solid #3da2e6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; }
+    .div-mantenimiento img {
+      border: solid black 5px;
+      width: 500px;
+      height: 500px;
+      margin: 10px 0 10px 0; }
+  .container-reparacion {
+    background-color: #f78336;
+    border: solid #3da2e6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; }
+    .container-reparacion img {
+      border: solid black 5px;
+      width: 500px;
+      height: 500px; }
+  .galeria div {
+    height: 300px; }
+  .image {
+    grid-column: 2/3; } }
+
+@media screen and (max-width: 860px) {
+  .nuestra-empresa {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center; }
+    .nuestra-empresa img {
+      width: 400px;
+      height: 200px; }
+  .parrafo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    margin: 0;
+    flex-wrap: wrap; }
+    .parrafo p {
+      font-size: 100%; }
+  .equipos-nuevos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; }
+  .carousel-imer {
+    width: 100%;
+    height: 100%; }
+  .container-servicio {
+    background-color: #f78336;
+    border: solid #3da2e6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; }
+    .container-servicio img {
+      border: solid black 5px;
+      width: 500px;
+      height: 500px;
+      margin: 10px 0 10px 0; }
+  .galeria {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    background-color: #f78336; }
+  .form-contactos {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; }
+  .img-contactos {
+    text-align: center; } }
+
+@media screen and (max-width: 560px) {
+  header nav {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; }
+    header nav ul li {
+      list-style: none;
+      display: block;
+      margin: 2px; }
+      header nav ul li:hover > ul {
+        display: flex;
+        flex-direction: column; }
+      header nav ul li .menu div {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        width: 20px;
+        height: 3px;
+        background-color: white;
+        margin: 5px; }
+        header nav ul li .menu div:hover {
+          background-color: #3da2e6; }
+      header nav ul li ul {
+        display: none;
+        position: absolute;
+        min-width: 140px;
+        background-color: black;
+        padding: 5px;
+        text-align: center;
+        transition-duration: 4s; }
+        header nav ul li ul li {
+          margin: 1px; }
+          header nav ul li ul li a {
+            margin: 0 5px 0 0; }
+            header nav ul li ul li a:hover {
+              margin: 5px;
+              color: #3da2e6;
+              cursor: pointer; }
+  .titulo h2 {
+    font-size: 50px;
+    color: black; }
+  .titulo p {
+    font-size: 15px;
+    background-color: black;
+    color: #3da2e6;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px; }
+  .titulo-servicios h1 {
+    font-size: 50px; }
+  .nuestra-empresa img {
+    width: 100%;
+    height: 200px;
+    padding: 20px; }
+  .equipos-nuevos {
+    width: 100%; }
+    .equipos-nuevos div img {
+      height: 200px;
+      width: 100%; }
+  .container-servicio img {
+    border: solid black 5px;
+    width: 250px;
+    height: 250px;
+    margin: 10px 0 10px 0; }
+  .div-mantenimiento img {
+    border: solid black 5px;
+    width: 250px;
+    height: 250px;
+    margin: 10px 0 10px 0; }
+  .container-reparacion img {
+    border: solid black 5px;
+    width: 250px;
+    height: 250px;
+    margin: 10px 0 10px 0; }
+  .galeria {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f78336; }
+    .galeria div {
+      height: 250px;
+      width: 250px; }
+  .trabajos h1 {
+    font-size: 50px; }
+  .trabajos p {
+    font-size: 20px; }
+  .form-contactos {
+    margin: 0; }
+  .img-contactos {
+    text-align: center; }
+  .form {
+    height: 400px;
+    width: 200px;
+    margin: 4px 0 3px 0;
+    border: solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px; }
+  .titulo-contactos h1 {
+    color: white;
+    font-size: 50px; }
+  .variedad div {
+    background-color: black;
+    border: solid #3da2e6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px; }
+  footer {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; } }

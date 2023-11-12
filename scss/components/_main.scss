@@ -131,7 +131,7 @@ main{
                 justify-content: center;
                 padding: 10px;}
         }
-        .container-servicios{
+        .container-servicio{
             border: solid rgb(61, 162, 230);
             background-color: rgb(247, 131, 54);
             display: flex;
@@ -147,6 +147,7 @@ main{
             img{border: solid black 5px;}
             img{border: solid black 5px;}
         }
+    }
         .mantenimiento{
             div{ h3{
                 background-color: black;
@@ -154,8 +155,7 @@ main{
                 display: flex;
                 justify-content: center;
                 padding: 10px;
-                font-size: 23px;
-            }}
+                font-size: 23px;}}
             .div-mantenimiento{
                  background-color: rgb(247, 131, 54);
                  border: solid rgb(61, 162, 230);
@@ -170,11 +170,7 @@ main{
                      p{font-size: 20px;
                        padding: 5px;}}
                 img{border: solid black 5px;}
-                img{border: solid black 5px;}
-
-
-            }
-
+                img{border: solid black 5px;}}
         }
         .reparacion{
             div{
@@ -204,4 +200,136 @@ main{
             }
         }
     }
-}
+/*------------VENTAS----------------------------*/
+.main-ventas{
+    .ventas{
+        background-image: url(../img/fondoventas.jpg);
+        height: 500px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        div{
+            h1{font-size: 100px;}
+        }
+    }
+    .linea-stanford{
+        h2{
+            background-color: black;
+            color: rgb(61, 162, 230);
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            font-size: 23px;
+        }
+    }
+    .stanford{
+        display: flex;
+        justify-content: space-around;
+        img{}
+        img{}
+    }
+    .productos{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        .cards{
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            img{}
+            .card-body{
+                .card-title{}
+                .card-txt{}
+                a{}}
+            }
+        }
+ }
+ /*------------------TRABAJOS---------------------*/
+ main{
+    .trabajos{
+        div{
+            height: 400px;
+            background-image: url(../img/fondotrabajos.jpg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            h1{font-size: 100px}
+            p{ background-color: black;
+                color: rgb(61, 162, 230);
+                margin: 20px 0 0 0;
+                padding: 5px;
+                font-size: 30px;
+                border-radius: 10px;}
+        }
+    }
+    .galeria{
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+        background-color: rgb(247, 131, 54);
+        div{
+            height: 400px;
+            img{width: 100%;
+                height: 100%;}
+        }
+        .image{
+            img{ grid-column: 2/4;}
+        }
+    }
+
+ }
+ /*---------------CONTACTOS---------------------*/
+
+.main-contactos{
+    .titulo-contactos{
+        background-color: black;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h1{color: white;
+           font-size: 100px;}
+    }
+    .form-contactos{
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+        div{
+            form{
+                .form{
+                    margin: 40px 0 30px 0;
+                    border: solid black;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 20px;
+                    div{height: 60px;
+                        display: flex;
+                        justify-content: right;
+                        align-items: center;
+                        margin: 20px;}
+                    }
+                }
+            }
+        }
+        .img-contactos{
+            h2 {margin: 40px 0 0 0;
+            font-size: 40px;}
+            a{text-decoration: none;
+                color: white;
+                
+                font-size: 30px;
+                padding: 10px;
+                border-radius: 30px;
+                &hover{
+                    color: rgb(61, 162, 230);
+                    cursor: pointer;
+                 } 
+            } 
+        }
+    }

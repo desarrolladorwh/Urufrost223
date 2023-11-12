@@ -1,0 +1,284 @@
+@media  screan and (max-width:1075px) {
+    .equipos-nuevos{
+        .img-nuevos{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .div-mantenimiento{
+        background-color: rgb(247, 131, 54);
+        border: solid rgb(61, 162, 230);
+        display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+       img{
+        border: solid black 5px;
+        width: 500px;
+        height: 500px;
+        margin: 10px 0 10px 0;
+       }
+    }
+    .container-reparacion {
+        background-color: rgb(247, 131, 54);
+        border: solid rgb(61, 162, 230);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            border: solid black 5px;
+            width: 500px;
+            height: 500px;
+        }
+    }
+    .galeria{
+        div{
+            height: 300px; 
+        }
+    }
+    .image{
+        grid-column: 2/3;
+    }
+
+
+
+}
+@media screen and (max-width:860px){
+    .nuestra-empresa {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        img{
+            width: 400px;
+            height: 200px;
+        }
+    }
+    .parrafo {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2px;
+        margin: 0;
+        flex-wrap: wrap;
+        p{
+            font-size: 100%;}
+    }
+    .equipos-nuevos{
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+    }
+    .carousel-imer{
+        width: 100%;
+        height: 100%;
+    }
+    .container-servicio{
+        background-color: rgb(247, 131, 54);
+        border: solid rgb(61, 162, 230);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        img{
+            border: solid black 5px;
+            width: 500px;
+            height: 500px;
+            margin: 10px 0 10px 0;
+        }
+    }
+    .galeria{
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        background-color: rgb(247, 131, 54);  
+    }
+    .form-contactos {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        }
+    .img-contactos{
+        text-align: center;
+    }
+}
+@media screen and (max-width:560px){
+    header{
+        nav{
+            height: 100%;
+            width: 100%;
+            background-color: black;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            img{}
+            ul{
+                li{ list-style: none;
+                    display: block;
+                    margin: 2px;
+                    &:hover > ul{
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    .menu{
+                        div{
+                            display: flex;
+                            flex-direction: column;
+                            gap: 5px;
+                            width: 20px;
+                            height: 3px;
+                            background-color: white;
+                            margin: 5px;
+                            &:hover{
+                                background-color: rgb(61, 162, 230);
+                            }
+                        }
+                    }
+                    ul{
+                        display: none;
+                        position: absolute;
+                        min-width: 140px;
+                        background-color: black;
+                        padding: 5px;
+                        text-align: center;
+                        transition-duration: 4s;
+
+                        li{
+                            margin:1px;
+                            
+                            a{
+                                margin: 0 5px 0 0;
+                                &:hover{
+                                    margin: 5px;
+                                    color: rgb(61, 162, 230);
+                                    cursor: pointer;}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .titulo{
+        h2{font-size: 50px;
+            color: black;}
+        p{ font-size: 15px;
+            background-color: black;
+            color: rgb(61, 162, 230);
+            margin: 20px;
+            border-radius: 10px;
+            padding: 10px;}
+    }
+    .titulo-servicios{
+        h1{
+            font-size: 50px; 
+        }
+    }
+    .nuestra-empresa{
+        img{
+            width: 100%;
+            height: 200px;
+            padding: 20px;
+        }
+    }
+    .equipos-nuevos{
+        width: 100%;
+        div{
+            img{
+                height: 200px;
+                width: 100%;
+            }
+        }
+    }
+    .container-servicio{
+        img{
+            border: solid black 5px;
+            width: 250px;
+            height: 250px;
+            margin: 10px 0 10px 0;
+        }
+    }
+    .div-mantenimiento{
+        img{
+            border: solid black 5px;
+        width: 250px;
+        height: 250px;
+        margin: 10px 0 10px 0;
+        }
+    }
+    .container-reparacion{
+        img{
+            border: solid black 5px;
+            width: 250px;
+            height: 250px;
+            margin: 10px 0 10px 0;
+        }
+    }
+    .galeria{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(247, 131, 54);
+        div{
+            height: 250px;
+            width: 250px;
+        }
+    }
+    .trabajos{
+        h1{font-size: 50px;}
+        p{font-size: 20px;}
+    }
+    .form-contactos{
+        margin: 0;
+    }
+    .img-contactos{
+        text-align: center;
+    }
+    .form{
+        height: 400px;
+        width: 200px;
+        margin: 4px 0 3px 0;
+        border: solid black;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .titulo-contactos{
+        h1{
+            color: white;
+            font-size: 50px;
+        }
+    }
+    .variedad{
+        div{
+            background-color: black;
+            border: solid rgb(61, 162, 230);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 5px;
+        }
+    }
+    footer {
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;}
+}
+   
