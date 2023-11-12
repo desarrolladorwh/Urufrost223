@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;1,600;1,900&family=Poppins:wght@400;500;600;700&family=Roboto+Condensed:ital,wght@0,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Jost', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif; }
+
+header {
+  flex-wrap: wrap;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100; }
+  header nav {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    header nav img {
+      width: 120px;
+      margin: 0 0 0 10px; }
+    header nav ul {
+      padding: 0;
+      margin: 0; }
+      header nav ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 2px; }
+        header nav ul li .menu div {
+          display: none;
+          flex-direction: column;
+          gap: 5px;
+          width: 20px;
+          height: 3px;
+          background-color: white;
+          margin: 5px; }
+        header nav ul li .menu div {
+          display: none;
+          flex-direction: column;
+          gap: 5px;
+          width: 20px;
+          height: 3px;
+          background-color: white;
+          margin: 5px; }
+        header nav ul li .menu div {
+          display: none;
+          flex-direction: column;
+          gap: 5px;
+          width: 20px;
+          height: 3px;
+          background-color: white;
+          margin: 5px; }
+        header nav ul li ul li a {
+          text-decoration: none;
+          color: white;
+          margin: 0 20px 0 0; }
+          header nav ul li ul li ahover {
+            color: #3da2e6;
+            cursor: pointer; }
+
+/*-------------INDEX----------*/
+main .titulo {
+  background-image: url(../img/fondo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  main .titulo h2 {
+    font-size: 100px;
+    color: black; }
+  main .titulo p {
+    font-size: 30px;
+    background-color: black;
+    color: #3da2e6;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px; }
+
+main .quienes-somos {
+  background-color: #f78336;
+  flex-wrap: wrap; }
+  main .quienes-somos div h2 {
+    background-color: black;
+    color: #3da2e6;
+    text-align: center;
+    padding: 10px; }
+
+main .nuestra-empresa {
+  display: flex; }
+  main .nuestra-empresa .parrafo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px; }
+    main .nuestra-empresa .parrafo p {
+      font-size: 20px; }
+    main .nuestra-empresa .parrafo p {
+      font-size: 20px; }
+    main .nuestra-empresa .parrafo p {
+      font-size: 20px; }
+  main .nuestra-empresa img {
+    width: 700px;
+    height: 500px; }
+
+main .equipos-nuevos h2 {
+  background-color: black;
+  color: #3da2e6;
+  text-align: center; }
+
+main .equipos-nuevos div {
+  display: flex;
+  justify-content: space-around; }
+
+main .equipos-nuevos .img-nuevos {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; }
+  main .equipos-nuevos .img-nuevos img {
+    height: 200px;
+    width: 400px; }
+  main .equipos-nuevos .img-nuevos img {
+    height: 200px;
+    width: 400px; }
+  main .equipos-nuevos .img-nuevos img {
+    height: 200px;
+    width: 400px; }
+  main .equipos-nuevos .img-nuevos img {
+    height: 200px;
+    width: 400px; }
+
+main .equipos-nuevos .mas-informacion a {
+  margin: 10px;
+  font-size: 25px;
+  text-decoration: none;
+  background-color: black;
+  color: #f5efef;
+  border-radius: 10px;
+  padding: 5px; }
+  main .equipos-nuevos .mas-informacion ahover {
+    color: #3da2e6;
+    cursor: pointer;
+    scale: 2; }
+
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px 0 20px; }
+  footer h2 {
+    font-size: 30px;
+    color: #f78336; }
+  footer div {
+    display: flex;
+    align-items: center; }
+    footer div p {
+      margin: 0 10px;
+      color: white; }
+  footer div {
+    display: flex;
+    align-items: center; }
+    footer div p {
+      margin: 0 10px;
+      color: white; }
+    footer div a img {
+      height: 50px;
+      width: 50px; }
+    footer div a img {
+      height: 50px;
+      width: 50px; }
+    footer div a img {
+      height: 50px;
+      width: 50px; }

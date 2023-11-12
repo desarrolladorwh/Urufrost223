@@ -1,0 +1,54 @@
+footer{
+    background-color: black;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    h2{font-size: 30px;
+        color: rgb(247, 131, 54);
+
+    }
+    div{
+        display: flex;
+        align-items: center;
+        p{ margin: 0 10px;
+            color: white;
+
+        }
+
+    }
+    div{ 
+        display: flex;
+        align-items: center;
+        p{ 
+            margin: 0 10px;
+            color: white;
+        }
+        a{
+            img{
+                height: 50px;
+                width: 50px;
+
+            }
+
+        }
+        a{
+            img{
+                height: 50px;
+                width: 50px;
+
+            }
+
+        }
+        a{
+            img{
+                height: 50px;
+                width: 50px;
+
+            }
+
+        }
+
+    }
+}
