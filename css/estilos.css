@@ -155,6 +155,118 @@ main .equipos-nuevos .mas-informacion a {
     cursor: pointer;
     scale: 2; }
 
+/*--------------SERVICIOS-------------------------*/
+.main-servicios .servicios .titulo-servicios {
+  background-image: url(../img/fondoservicios.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .main-servicios .servicios .titulo-servicios h1 {
+    font-size: 100px;
+    color: black; }
+
+.main-servicios .servicios .variedad {
+  background-color: #f78336;
+  border: solid black 2px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap; }
+  .main-servicios .servicios .variedad div {
+    background-color: black;
+    border: solid #3da2e6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .main-servicios .servicios .variedad div h2 {
+      color: #3da2e6; }
+    .main-servicios .servicios .variedad div img {
+      width: 200px;
+      height: 200px; }
+
+.main-servicios .servicios .instalacion h2 {
+  background-color: black;
+  color: #3da2e6;
+  display: flex;
+  justify-content: center;
+  padding: 10px; }
+
+.main-servicios .servicios .container-servicios {
+  border: solid #3da2e6;
+  background-color: #f78336;
+  display: flex;
+  justify-content: space-between; }
+  .main-servicios .servicios .container-servicios div {
+    display: flex;
+    align-items: center;
+    padding: 30px; }
+    .main-servicios .servicios .container-servicios div p {
+      font-size: 20px;
+      color: black;
+      padding: 5px; }
+  .main-servicios .servicios .container-servicios img {
+    border: solid black 5px; }
+  .main-servicios .servicios .container-servicios img {
+    border: solid black 5px; }
+
+.main-servicios .servicios .mantenimiento div h3 {
+  background-color: black;
+  color: #3da2e6;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 23px; }
+
+.main-servicios .servicios .mantenimiento .div-mantenimiento {
+  background-color: #f78336;
+  border: solid #3da2e6;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between; }
+  .main-servicios .servicios .mantenimiento .div-mantenimiento .p-mantenimiento {
+    display: flex;
+    color: black;
+    padding: 30px;
+    flex-wrap: wrap; }
+    .main-servicios .servicios .mantenimiento .div-mantenimiento .p-mantenimiento p {
+      font-size: 20px;
+      padding: 5px; }
+  .main-servicios .servicios .mantenimiento .div-mantenimiento img {
+    border: solid black 5px; }
+  .main-servicios .servicios .mantenimiento .div-mantenimiento img {
+    border: solid black 5px; }
+
+.main-servicios .servicios .reparacion div h3 {
+  background-color: black;
+  color: #3da2e6;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 23px; }
+
+.main-servicios .servicios .reparacion .container-reparacion {
+  background-color: #f78336;
+  border: solid #3da2e6;
+  display: flex;
+  justify-content: space-between; }
+  .main-servicios .servicios .reparacion .container-reparacion div {
+    display: flex;
+    align-items: center;
+    padding: 30px; }
+    .main-servicios .servicios .reparacion .container-reparacion div p {
+      font-size: 20px;
+      padding: 5px; }
+  .main-servicios .servicios .reparacion .container-reparacion img {
+    border: solid black 5px; }
+  .main-servicios .servicios .reparacion .container-reparacion img {
+    border: solid black 5px; }
+
 footer {
   background-color: black;
   display: flex;
